@@ -1,3 +1,51 @@
-h1{
-    color: blueviolet;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+}
+
+/* shareable styles */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.title {}
+
+
+/* banner styles start from here */
+.banner-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    width: 100%;
+    mar
+}
+
+.banner-img {
+    width: 635px;
+    height: 800px;
+    /* padding-top: 100px; */
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    color: #272727;
+    font-weight: 750;
+
+}
+
+.banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 32px;
 }
