@@ -18,8 +18,24 @@ body {
     margin-top: 32px;
 }
 
-.title {}
+.title {
+    /* color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727; */
+    text-align: center;
 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.description-text {
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 24;
+}
 
 /* banner styles start from here */
 .banner-container {
@@ -29,9 +45,9 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    
+
 }
-    
+
 
 .banner-img {
     width: 500px;
@@ -45,17 +61,68 @@ body {
     color: #272727;
     font-weight: 800;
     line-height: 55px;
-    
-    
+
+
 }
 
 .banner-text p {
     color: rgba(39, 39, 39, 0.60);
     margin-top: 32px;
 }
-.banner-text{
-  width: 500px;
-  margin-left: 100px;
-  padding-top: 100px;
-   
+
+.banner-text {
+    width: 500px;
+    margin-left: 100px;
+    padding-top: 100px;
+
+}
+
+/* bonus style area  */
+.text-bonus p {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 24px;
+}
+
+.box {
+    width: 500px;
+    
+
+}
+
+.image-bonus-1 {
+    padding: 30px 0px 0px 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.image-bonus-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image-bonus-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.image-size {
+    width: 300px;
+    height: 350px;
+}
+.image-bonus-1 .image-size{
+    height: 320px;
+}
+.bonus {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    gap: 15px;
+    margin-top: 30px;
 }
