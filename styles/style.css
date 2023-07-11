@@ -68,6 +68,7 @@ body {
 .banner-text p {
     color: rgba(39, 39, 39, 0.60);
     margin-top: 32px;
+    text-decoration: underline;
 }
 
 .banner-text {
@@ -82,10 +83,11 @@ body {
     text-align: center;
 }
 
-p {
-    text-align: center;
-    text-decoration: underline;
+p {    text-align: center;
     margin-top: 24px;
+}
+.bonus-image-tag{
+    text-decoration: underline;
 }
 
 .box {
@@ -117,6 +119,7 @@ p {
 }
 .image-bonus-1 .image-size{
     height: 320px;
+    
 }
 .bonus {
     display: flex;
@@ -125,4 +128,20 @@ p {
     margin: auto;
     gap: 15px;
     margin-top: 30px;
+    
+}
+.icon-optional{
+    width: 200px;
+    text-align: center;
+}
+.icon-optional-all{
+    margin-top: 30px;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    background-color: #2727270D ;
+    gap: 15px;
 }
