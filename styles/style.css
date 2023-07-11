@@ -19,17 +19,12 @@ body {
 }
 
 .title {
-    /* color: #272727;
+    color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    color: #272727; */
-    text-align: center;
-
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    color: #272727;
+    
 }
 
 .description-text {
@@ -187,4 +182,18 @@ p {
     color: #E55473;
 }
 
-]
+/* instagram style start from here */
+.insta-title{
+    margin-top: 50px;
+}
+.insta-img {
+    width: 230px;
+}
+.instagram-images{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
