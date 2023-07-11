@@ -13,7 +13,7 @@ body {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
-    border: 0;
+    border: 0px;
     color: #fff;
     margin-top: 32px;
 }
@@ -25,27 +25,37 @@ body {
 .banner-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
+    gap: 30px;
     justify-content: space-around;
     align-items: center;
-    margin: 100px;
-    width: 100%;
-    mar
+    height: 100vh;
+    
 }
+    
 
 .banner-img {
-    width: 635px;
-    height: 800px;
-    /* padding-top: 100px; */
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 100px;
 }
 
 .banner-text h1 {
-    font-size: 45px;
+    font-size: 50px;
     color: #272727;
-    font-weight: 750;
-
+    font-weight: 800;
+    line-height: 55px;
+    
+    
 }
 
 .banner-text p {
     color: rgba(39, 39, 39, 0.60);
     margin-top: 32px;
+}
+.banner-text{
+  width: 500px;
+  margin-left: 100px;
+  padding-top: 100px;
+   
 }
